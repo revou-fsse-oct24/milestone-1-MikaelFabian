@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-wdith, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=chevron_left" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=chevron_right" />
         <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <title>RSV Helmet</title>
@@ -54,26 +56,24 @@
                 
                 well-integrated 360 strategy from production to after-sales services.</p>
         </section>
-        <section class="product" id="direct-product">
-            <div class="product-header">
-                <h3> Product </h3>
-            </div>
-            <div class="slideshow">
-                <div class="product-category">
-                    <a href="#"><img src="./assets/ffc21.webp" alt="ffc21 Catalog" id="img-6"></a>
-                    <a href="#"><img src="./assets/ffs21.webp" alt="ffs21 Catalog" id="img-7"></a>
-                    <a href="#"><img src="./assets/ff500.webp" alt="ff500 Catalog" id="img-8"></a>
-                    <a href="#"><img src="./assets/sv300.webp" alt="sv300 Catalog" id="img-9"></a>
-                    <a href="#"><img src="./assets/NWT.webp" alt="NWT Catalog" id="img-10"></a>
-                    <a href="#"><img src="./assets/rsv classic.webp" alt="classic Catalog" id="img-11"></a>
+        <section class="product">
+            <h3 class="product-header"> Product </h3>
+            <div class="slider-wrapper">
+                <div class="slider">
+                    <img src="./assets/ffc21.webp" alt="FFC21 product" id="slide-1">
+                    <img src="./assets/ffs21.webp" alt="FFS21 product" id="slide-2">
+                    <img src="./assets/ff500.webp" alt="FF500 product" id="slide-3">
+                    <img src="./assets/sv300.webp" alt="SV300 product" id="slide-4">
+                    <img src="./assets/NWT.webp" alt="NWT product" id="slide-5">
+                    <img src="./assets/rsv classic.webp" alt="Classic product" id="slide-6">
                 </div>
                 <div class="slider-nav">
-                    <a href="#img-6"></a>
-                    <a href="#img-7"></a>
-                    <a href="#img-8"></a>
-                    <a href="#img-9"></a>
-                    <a href="#img-10"></a>
-                    <a href="#img-11"></a>
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                    <a href="#slide-4"></a>
+                    <a href="#slide-5"></a>
+                    <a href="#slide-6"></a>
                 </div>
             </div>
         </section>
@@ -86,17 +86,17 @@
                         Lifetime warranty ini diberikan kepada semua tipe helm RSV.
                         
                         “Beli helm RSV dimana saja, model apa saja, free jasa pembersihan seumur hidup anda,” 
-                    </p>
+                    </p> 
                     <ul>
-                        <li>
+                        <li id="li-1">
                             Pembersihan
-                        </li>
-                        <li>
+                        </li> <br>
+                        <li id="li-2">
                             Reparasi
-                        </li>
-                        <li>
+                        </li> <br>
+                        <li id="li-3">
                             Pemasangan Aksesoris
-                        </li>
+                        </li> <br>
                     </ul>
             </div>
             <div class="lifetime-img">
@@ -110,40 +110,58 @@
         </section>    
     </main>
 
-<footer id="direct-contact">
-    <div>
+<footer>
+    <section class="direct-contact">
+    <div class="contact">
         <h3> Contact </h3>
-        <a href="#" class="instagram">@rsvhelmets</a>
-        <a href="#" class="Whatsapp"> (+62) 821-1414-5566 </a>
-        <a href="#" class="Address"> Jl. Cikutra No.205, Neglasari, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat 40124 </a>
+        <div class="contact-container">
+            <div class="contact-1">
+                <a href="https://www.instagram.com/rsvhelmets/" target="_blank" rel="noopener noreferrer" class="instagram">instagram : @rsvhelmets</a>
+            </div>
+            <div class="contact-2">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="Whatsapp"> (+62) 821-1414-5566 </a>
+            </div>
+            <div class="contact-3">
+                <a href="https://maps.app.goo.gl/uyrQwCgbTyCPZnaM8" target="_blank" rel="noopener noreferrer" class="Address"> Jl. Cikutra No.205, Neglasari, Kec. Cibeunying Kaler, <br> Kota Bandung, Jawa Barat 40124 </a>
+            </div>
+            <div class="copyright">
+                <h4>
+                    &copy; @RSVHELMETS <br><br><span class="copyright">WEBSITE BY MIKAEL FABIAN 2024</span>
+                </h4>
+            </div>
+        </div>
+        
     </div>
-    <div>
-        <h3> STORE LOCATION </h3>   
-        <p>
-            <a href="#"> RSV STORE SURABAYA </a>
-            <br>
-            Jl. Indragiri no 18 Kav A7 Wonokromo, Surabaya
-        </p>
-        <p>
-            <a href="#"> RSV STORE KEBON JERUK </a>
-            <br>
-            Jl. Lapangan Bola No. 38b Kebon Jeruk Jakarta Barat
-        </p>
-        <p>
-            <a href="#"> RSV STORE CIKUTRA </a>
-            <br>
-            Jl. Cikutra No.205, Neglasari, Kec. Cibeunying Kaler, Kota Bandung, Jawa Barat 40124
-        </p>
-        <p>
-            <a href="#"> RSV STORE MEDAN </a>
-            <br>
-            Jl. Setia budi no 72. Tanjung rejo, Medan
-        </p>
-        <p>
-            <a href="#"> RSV STORE PALEMBANG </a>
-            <br>
-            Jl. Brigjen Hasan Kasim No.3, Bukit Sangkal, Kec. Kalidoni, Kota Palembang, Sumatera Selatan 30961
-        </p>
+    <div class="store">
+        <h3> STORE LOCATION </h3>
+        <div class="location-container">
+            <div class="location-1">
+                <a href="#" target="_blank" rel="noopener noreferrer"> RSV STORE SURABAYA </a>
+                <br>
+                Jl. Indragiri no 18 Kav A7 Wonokromo, Surabaya
+            </div>
+            <div class="location-2">
+                <a href="#" target="_blank" rel="noopener noreferrer"> RSV STORE KEBON JERUK </a>
+                <br>
+                Jl. Lapangan Bola No. 38b Kebon Jeruk Jakarta Barat
+            </div>
+            <div class="location-3">
+                <a href="https://maps.app.goo.gl/uyrQwCgbTyCPZnaM8" target="_blank" rel="noopener noreferrer"> RSV STORE CIKUTRA </a>
+                <br>
+                Jl. Cikutra No.205, Neglasari, Kec. Cibeunying Kaler, <br> Kota Bandung, Jawa Barat 40124
+            </div>
+            <div class="location-4">
+                <a href="#" target="_blank" rel="noopener noreferrer"> RSV STORE MEDAN </a>
+                <br>
+                Jl. Setia budi no 72. Tanjung rejo, Medan
+            </div>
+            <div class="location-5">
+                <a href="#" target="_blank" rel="noopener noreferrer"> RSV STORE PALEMBANG </a>
+                <br>
+                Jl. Brigjen Hasan Kasim No.3, Bukit Sangkal, Kec. Kalidoni, <br> Kota Palembang, Sumatera Selatan 30961
+            </div>
+        </div>
     </div>
+    </section>
 </footer>
 </body>
